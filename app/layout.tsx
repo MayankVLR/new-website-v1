@@ -9,8 +9,9 @@ const _playfair = Playfair_Display({ subsets: ["latin"], variable: "--font-serif
 const _caveat = Caveat({ subsets: ["latin"], variable: "--font-handwritten" });
 
 export const metadata: Metadata = {
-  title: 'Uthinh Pham | Portfolio',
-  description: 'Creative Developer Portfolio',
+  title: 'Mayank | Motion Designer & Video Editor',
+  description:
+    'Motion designer and video editor from India — cinematic ads, reels, and social content. Clean storytelling, strong visuals, 1M+ views.',
   generator: 'v0.app',
   icons: {
     icon: [

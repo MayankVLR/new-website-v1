@@ -10,7 +10,7 @@ interface StickyNoteProps {
 export function StickyNote({ text, rotation = -8 }: StickyNoteProps) {
   return (
     <motion.div
-      className="absolute top-[8%] left-1/2 -translate-x-1/2 z-20"
+      className="absolute top-[5%] left-1/2 z-20 w-[min(92vw,20rem)] -translate-x-1/2 sm:top-[8%] sm:w-auto"
       initial={{ opacity: 0, y: -20, rotate: rotation }}
       animate={{ opacity: 1, y: 0, rotate: rotation }}
       transition={{ duration: 0.6, delay: 0.3, ease: "easeOut" }}
@@ -23,7 +23,7 @@ export function StickyNote({ text, rotation = -8 }: StickyNoteProps) {
           fontFamily: "var(--font-handwritten), Caveat, cursive",
         }}
       >
-        <p className="text-xl md:text-2xl text-gray-800 whitespace-nowrap">
+        <p className="whitespace-normal text-center text-lg leading-snug text-gray-800 sm:text-left sm:text-xl md:text-2xl">
           {text}
         </p>
       </div>

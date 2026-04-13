@@ -16,6 +16,7 @@ interface DraggableCardProps {
   /** Height as a fraction of viewport width (e.g. 0.18 = 18vw) */
   heightVw: number
   constraintsRef: RefObject<HTMLElement | null>
+  caption?: string
 }
 
 export function DraggableCard({
@@ -28,6 +29,7 @@ export function DraggableCard({
   widthVw,
   heightVw,
   constraintsRef,
+  caption,
 }: DraggableCardProps) {
   const [zIndex, setZIndex] = useState(index + 10)
 
@@ -96,6 +98,11 @@ export function DraggableCard({
             draggable={false}
           />
         </div>
+        {caption && (
+          <p className="mt-2 select-none pointer-events-none text-center text-xs text-neutral-700" style={{ fontFamily: "var(--font-handwritten), cursive" }}>
+            {caption}
+          </p>
+        )}
       </div>
     </motion.div>
   )

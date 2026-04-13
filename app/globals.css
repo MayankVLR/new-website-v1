@@ -78,7 +78,7 @@
   --font-sans: var(--font-sans), 'Geist', 'Geist Fallback';
   --font-mono: var(--font-mono), 'Geist Mono', 'Geist Mono Fallback';
   --font-serif: var(--font-serif), 'Playfair Display', Georgia, serif;
-  --font-handwritten: var(--font-handwritten), 'Caveat', cursive;
+  --font-handwritten: 'Caveat', cursive;
   --color-background: var(--background);
   --color-foreground: var(--foreground);
   --color-card: var(--card);
