@@ -14,21 +14,8 @@ export const metadata: Metadata = {
     'Motion designer and video editor from India — cinematic ads, reels, and social content. Clean storytelling, strong visuals, 1M+ views.',
   generator: 'v0.app',
   icons: {
-    icon: [
-      {
-        url: '/icon-light-32x32.png',
-        media: '(prefers-color-scheme: light)',
-      },
-      {
-        url: '/icon-dark-32x32.png',
-        media: '(prefers-color-scheme: dark)',
-      },
-      {
-        url: '/icon.svg',
-        type: 'image/svg+xml',
-      },
-    ],
-    apple: '/apple-icon.png',
+    icon: '/images/icons/20b11aa1187ad281328ff924a4282e72.jpg',
+    apple: '/images/icons/20b11aa1187ad281328ff924a4282e72.jpg',
   },
 }
 
