@@ -55,19 +55,41 @@ export const workCategoryContent: Record<WorkSlug, WorkCategoryPageData> = {
         src: "https://drive.google.com/file/d/15zbB08wp1zz3UJjVfzccHLau54BV2GfX/preview",
         label: "Motion 4",
       },
+      {
+        src: "https://drive.google.com/file/d/1WOouXU_XeapKWG8euFt-6UF1u8J_VKK0/preview",
+        label: "Motion 5",
+      },
+      {
+        src: "https://drive.google.com/file/d/1wqOCPNbOPb3liu9qxawUMmzAIMXQESB7/preview",
+        label: "Motion 6",
+      },
     ],
   },
   reels: {
     title: "Reels",
     description:
-      "Fast-paced edits and trend-based content for Instagram, TikTok, and Shorts — add Drive links when you’re ready.",
-    embeds: [],
+      "Fast-paced edits and trend-based content for Instagram and Shorts.",
+    embeds: [
+      {
+        src: "https://drive.google.com/file/d/1LXWMLxp04F9lOlI_f6U1jC9z7O-C897B/preview",
+        label: "Reel 1",
+      },
+      {
+        src: "https://drive.google.com/file/d/1CtWtJMXGE4jU66h2J8fUh7N5_9FWtiNb/preview",
+        label: "Reel 2",
+      },
+    ],
   },
   ai: {
     title: "AI-assisted content",
     description:
-      "AI-assisted visuals and experiments — add pieces here as you publish them.",
-    embeds: [],
+      "AI-assisted visuals and experiments — pushing creative boundaries with artificial intelligence.",
+    embeds: [
+      {
+        src: "https://drive.google.com/file/d/1SLMhW9ly-9Soe9D9G3y3ae1XwK4XF7Zl/preview",
+        label: "AI project 1",
+      },
+    ],
   },
 }
 

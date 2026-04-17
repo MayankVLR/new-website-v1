@@ -14,8 +14,8 @@ const contact: {
   { label: "Availability", value: "Open for work" },
   {
     label: "Email",
-    value: "hello@mayank.studio",
-    href: "mailto:hello@mayank.studio",
+    value: "videoeditingmayank@gmail.com",
+    href: "mailto:videoeditingmayank@gmail.com",
   },
 ]
 
@@ -28,7 +28,7 @@ const portfolioLinks = [
   {
     label: "Instagram",
     href: "https://instagram.com/",
-    value: "Add your @handle",
+    value: "soon",
   },
 ]
 
